@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- saved from url=(0045)file:///Users/macuser/Downloads/index_10.html -->
+<!-- saved from url=(0045)file:///Users/macuser/Downloads/index_11.html -->
 <html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -130,7 +130,7 @@
         <div class="photo-drop-sub">Any format · square works best</div>
       </div>
       <div class="photo-preview" id="photoPreview">
-        <img id="photoThumb" src="file:///Users/macuser/Downloads/index_10.html" alt="preview">
+        <img id="photoThumb" src="file:///Users/macuser/Downloads/index_11.html" alt="preview">
         <div>
           <div id="photoName" style="font-size:13px;font-weight:500"></div>
           <span class="photo-preview-remove" onclick="removePhoto()">Remove</span>
@@ -218,13 +218,13 @@ function buildSignature(firstName, lastName, jobTitle, email, phone, linkedin, p
     ? `<span style="color:#cccccc;margin:0 8px">|</span><span style="font-family:Helvetica,Arial,sans-serif;font-size:13px;color:#444444">${phone}</span>`
     : '';
 
-  return `<table width="600" cellpadding="0" cellspacing="0" border="0" style="font-family:Helvetica,Arial,sans-serif;margin-top:16px">
+  return `<table width="600" cellpadding="0" cellspacing="0" border="0" style="font-family:Helvetica,Arial,sans-serif;margin-top:24px">
   <tr>
     ${photoCell}
-    <td style="vertical-align:top;padding-top:0">
+    <td style="vertical-align:top">
       <p style="font-family:Helvetica,Arial,sans-serif;font-size:18px;font-weight:700;color:#0A0A0A;margin:0 0 3px 0;line-height:1.2">${firstName} ${lastName}</p>
       <p style="font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;color:#111111;margin:0 0 0 0;line-height:1.2">${jobTitle}</p>
-      <p style="font-family:Helvetica,Arial,sans-serif;font-size:13px;margin:14px 0 0 0;line-height:1.2">
+      <p style="font-family:Helvetica,Arial,sans-serif;font-size:13px;margin:32px 0 0 0;line-height:1.2">
         <a href="mailto:${email}" style="font-family:Helvetica,Arial,sans-serif;font-size:14px;color:#0A0A0A;text-decoration:underline">${email}</a>
         ${phoneHTML}
       </p>
@@ -232,14 +232,14 @@ function buildSignature(firstName, lastName, jobTitle, email, phone, linkedin, p
   </tr>
   <tr>
     <td colspan="2" ${photo ? '' : ''}>
-      <div style="height:1px;background:#E2E2DE;margin:12px 0 28px 0"></div>
+      <div style="height:1px;background:#E2E2DE;margin:20px 0 20px 0"></div>
     </td>
   </tr>
   <tr>
     <td colspan="2">
       <table width="600" cellpadding="0" cellspacing="0" border="0">
         <tr>
-          <td style="vertical-align:middle">
+          <td style="vertical-align:top">
             ${logoSVG}
           </td>
           <td align="right" style="vertical-align:middle">
